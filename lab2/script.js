@@ -7,7 +7,7 @@ const map = new mapboxgl.Map({
   container: "map",
   // Replace YOUR_STYLE_URL with your style URL.
   style: "mapbox://styles/meiliuwu1/cmkl7sm78000o01s82vjx8zin",
-  center: [4.258075368255026, 55.85939788806714],  
+  center: [-4.2580753, 55.8593978],  
   zoom: 9
 });
 
@@ -110,8 +110,8 @@ const geocoder = new MapboxGeocoder({
   marker: false, // Do not use the default marker style
   placeholder: "Search for places in Glasgow", // Placeholder text for the search bar
   proximity: {
-    longitude: -4.258075368255026,
-    latitude: 55.85939788806714
+    longitude: -4.2580753, 
+    latitude: 55.8593978
   } // Coordinates of Glasgow center
 });
 
