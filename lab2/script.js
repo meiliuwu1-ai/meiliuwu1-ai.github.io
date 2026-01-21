@@ -111,7 +111,7 @@ const geocoder = new MapboxGeocoder({
   placeholder: "Search for places in Glasgow", // Placeholder text for the search bar
   proximity: {
     longitude: 55.8642,
-    latitude: 4.2518
+    latitude: -4.2518
   } // Coordinates of Glasgow center
 });
 
