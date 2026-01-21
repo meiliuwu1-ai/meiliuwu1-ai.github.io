@@ -8,7 +8,7 @@ const map = new mapboxgl.Map({
   // Replace YOUR_STYLE_URL with your style URL.
   style: "mapbox://styles/meiliuwu1/cmkl7sm78000o01s82vjx8zin",
   center: [-4.2580753, 55.8593978],  
-  zoom: 9
+  zoom: 10
 });
 
 map.on("mousemove", (event) => {
