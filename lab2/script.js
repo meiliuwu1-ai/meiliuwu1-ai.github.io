@@ -6,7 +6,9 @@ mapboxgl.accessToken =
 const map = new mapboxgl.Map({
   container: "map",
   // Replace YOUR_STYLE_URL with your style URL.
-  style: "mapbox://styles/meiliuwu1/cmkl7sm78000o01s82vjx8zin"
+  style: "mapbox://styles/meiliuwu1/cmkl7sm78000o01s82vjx8zin",
+  center: [55.8642, 4.2518], 
+  zoom: 9
 });
 
 map.on("mousemove", (event) => {
